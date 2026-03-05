@@ -1,77 +1,78 @@
 
-# Full Stack Food Delivery App
-### (With Courier App and Restaurant Dashboard)
-![food](https://github.com/rush33/food-delivery/assets/75556978/0dcec293-0f91-475f-8d1e-a296ee01f22a)
+# FoodExpress: Full-Stack Food Delivery Ecosystem
 
-This repository contains the source code for a food delivery app that allows users to browse, order, and track food deliveries from various restaurants. The user app and courier app are built using Expo and React Native, with NativeWind CSS for styling and Firebase for backend services. The restaurant dashboard and admin app are built using Next JS and Tailwind CSS.
+FoodExpress is a comprehensive, multi-platform food delivery solution featuring a customer app, a driver app, and a restaurant management dashboard. Built with modern technologies like React Native, Next.js, and Firebase, it provides a seamless experience for users, delivery partners, and restaurant owners.
 
+## 🚀 Project Overview
 
-## Features
+This ecosystem is designed to handle the entire lifecycle of a food order, from placement to real-time tracking and delivery confirmation.
 
-The food delivery app comes with the following features:
+### 📱 Customer App (`user-side`)
+Built with **React Native** and **Expo**, the customer app allows users to:
+- **Browse & Search**: Explore local restaurants and cuisines.
+- **Real-time Cart**: Seamlessly add items and manage orders.
+- **Secure Checkout**: Integrated payment flow.
+- **Order Tracking**: Real-time status updates via Firebase.
 
-- **User Authentication**: Users can sign up and log in to their accounts using email and password or Google authentication.
-- **Restaurant Search**: Users can search for restaurants by name, or cuisine
-- **Menu Browsing**: Users can browse restaurant menus and view details about each menu item, including price, and description.
-- **Ordering and Payment**: Users can place orders and pay for their orders using credit card or PayPal.
-- **Order Tracking**: Users can track the status of their orders in real-time, from order preparation to delivery.
+### 🚴 Driver App (`driver-app`)
+A dedicated mobile application for delivery partners to:
+- **Manage Deliveries**: Accept/decline incoming delivery requests.
+- **Interactive Maps**: Real-time navigation to restaurant and customer locations using Google Maps.
+- **Status Updates**: Mark milestones (Picked Up, Delivered).
 
-The courier app comes with the following features:
+### 📊 Restaurant Dashboard (`restaurant-dashboard`)
+A **Next.js** web application for restaurant owners to:
+- **Order Management**: Monitor and process incoming orders in real-time.
+- **Menu Control**: Add, edit, or remove dishes and manage pricing.
+- **Business Insights**: Overview of restaurant performance.
 
-- **Courier Authentication**: Couriers can sign up and log in to their accounts using email and password or Google authentication.
-- **Order Management**: Couriers can accept or decline orders and mark orders as delivered.
-- **Navigation**: Couriers can use turn-by-turn navigation to find the delivery location.
+---
 
-The restaurant dashboard and admin app come with the following features:
+## 🛠️ Tech Stack
 
-- **Restaurant Authentication**: Restaurant owners and admins can sign up and log in to their accounts using email and password or Google authentication.
-- **Order Management**: Restaurant owners and admins can view, accept or decline orders, and mark orders as ready for pickup or delivered.
-- **Menu Management**: Restaurant owners and admins can add, update, and delete dishes, as well as manage dish images and descriptions.
-## Installation
+- **Mobile**: React Native, Expo, NativeWind (Tailwind CSS)
+- **Web**: Next.js, Tailwind CSS
+- **Backend & Real-time**: Firebase (Firestore, Auth, Storage)
+- **Navigation**: React Navigation, Google Maps API
+- **State Management**: Redux Toolkit
 
-To install the food delivery app, follow these steps:
+---
 
-Clone the repository to your local machine using the command:
+## ⚙️ Installation & Setup
 
+### 1. Clone the repository
 ```bash
-git clone https://github.com/rush33/food-delivery.git
+git clone https://github.com/ankit-gupta-git/foodexpress-ai-food-delivery-mobile-app.git
+cd foodexpress-ai-food-delivery-mobile-app
 ```
 
-Install the dependencies for the user app and courier app using Yarn or npm:
-
+### 2. Setup the Customer App
 ```bash
-cd food-delivery-app/user-side
-yarn install
-```
-or
-
-```bash
-cd food-delivery-app/user-side
+cd user-side
 npm install
+npx expo start
 ```
 
-Repeat this step for the courier app, restaurant dashboard, and admin app.
-
-Start the Expo development server for the user app and courier app using the command:
-
-```
-yarn start
-or
-expo start
+### 3. Setup the Driver App
+```bash
+cd ../driver-app
+npm install
+npx expo start
 ```
 
-Repeat this step for the restaurant dashboard and admin app.
+### 4. Setup the Restaurant Dashboard
+```bash
+cd ../restaurant-dashboard
+npm install
+npm run dev
+```
 
+---
 
-*Install the Expo client app on your mobile device or emulator and scan the QR code to launch the user app or courier app. Open your web browser and navigate to http://localhost:3000 to launch the restaurant dashboard or admin app.*
+## 📄 License
 
-<br/>  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<div align="center">
-            <a href="https://www.buymeacoffee.com/rushad33" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
-                    align="center"
-                />
-            </a></div>
-<br />
+---
+
+**Developed by Ankit Gupta**

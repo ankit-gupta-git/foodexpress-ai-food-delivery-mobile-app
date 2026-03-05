@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "UberEatsCourier",
-    "slug": "UberEatsCourier",
+    "name": "FoodExpress Driver",
+    "slug": "foodexpress-driver",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

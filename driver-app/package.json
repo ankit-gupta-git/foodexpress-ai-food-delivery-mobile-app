@@ -1,5 +1,6 @@
 {
-  "name": "driver-app",
+  "name": "foodexpress-driver",
+  "author": "Ankit Gupta",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {

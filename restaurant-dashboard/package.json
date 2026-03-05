@@ -1,6 +1,7 @@
 {
-  "name": "restaurant-dashboard",
-  "version": "0.1.0",
+  "name": "foodexpress-dashboard",
+  "author": "Ankit Gupta",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
