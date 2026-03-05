@@ -3,6 +3,8 @@
 
 FoodExpress is a comprehensive, multi-platform food delivery solution featuring a customer app, a driver app, and a restaurant management dashboard. Built with modern technologies like React Native, Next.js, and Firebase, it provides a seamless experience for users, delivery partners, and restaurant owners.
 
+![FoodExpress Prototype](./prototype.png)
+
 ## 🚀 Project Overview
 
 This ecosystem is designed to handle the entire lifecycle of a food order, from placement to real-time tracking and delivery confirmation.
